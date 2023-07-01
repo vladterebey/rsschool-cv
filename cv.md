@@ -1,5 +1,5 @@
 # Vladislav Terebey
-
+![alt text](https://avatars.githubusercontent.com/u/49286138?v=4)
 ## Contact information:
 - Telegram: vterebey
 - Email: vladterebei@gmail.com
