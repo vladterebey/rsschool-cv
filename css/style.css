@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* .main {
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+
+
+.header {
+    background-color: #8aa18d;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.nav-link {
+    transition: .3s;
+}
+
+.section-list {
+    list-style-type: none;
+}
+
+.section-list{
+    margin: 0;
+    padding: 0;
+}
+.section-item a{
+    color: #8aa18d;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
+    color: #4d2323;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.section {
+    width: calc(50% - 20px);
+    padding: 10px 10px 30px;
+    border-bottom: 2px solid #8aa18d;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 4px solid #8aa18d;
+}
+
+.section-subtitle {
+    color: #4d2323;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.section-profile-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.section-profile-logo:hover {
+    filter: brightness(90%)
+}
+
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+
+.section-education {
+    border-bottom: none;
+}
+
+.section-languages {
+    border-bottom: none;
+}
+
+.main-title {
+    color: #4d2323;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.5s;
+}
+ 
+.nav-link:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 20px;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #83c98d; /* Цвет подчеркивания при исчезании линии*/
+    transition: 0.7s; /* Время эффекта */
+}
+
+.nav-link:hover:after {
+	content: "";
+    width: calc(100% - 40px);
+    display: block;
+    position: absolute;
+    left: 20px;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: #fff; /* Цвет подчеркивания при появлении линии*/
+    transition: 0.5s;  /* Время эффекта */
+}
+
+.rs-logo {
+    width: 121px;
+    height: 45px;
+    background-image: url("rsschool-cv\svg\rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 30px;
+}
+ 
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+    border: 1px solid #829985;
+    border-radius: 50%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #8aa18d;
+}
+
+.github {
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.github:hover {
+    color: #4d2323;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.5s;
+}
+
+.rs-logo{
+    filter: brightness(30%) invert(100%);
+  }
+  
